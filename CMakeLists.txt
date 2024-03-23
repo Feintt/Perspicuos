@@ -13,4 +13,6 @@ add_executable(perspicuous src/main.c
         src/transaction.c
         include/transaction.h
         "src/util.c .c"
-        "include/util.c .h")
+        "include/util.c .h"
+        include/os_type.h
+        src/os_type.c)

@@ -1,8 +1,10 @@
 // Entrypoint for DBMS
 
 #include <stdio.h>
+#include "../include/os_type.h"
 
 int main() {
-    printf("Hello, World!\n");
+    detectOSType();
+
     return 0;
 }
