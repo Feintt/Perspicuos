@@ -15,4 +15,8 @@ add_executable(perspicuous src/main.c
         "src/util.c .c"
         "include/util.c .h"
         include/os_type.h
-        src/os_type.c)
+        src/os_type.c
+        src/config.c
+        include/config.h)
+
+include_directories(${PROJECT_SOURCE_DIR}/include)

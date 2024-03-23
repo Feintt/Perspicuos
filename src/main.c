@@ -1,10 +1,11 @@
 // Entrypoint for DBMS
 
-#include <stdio.h>
-#include "../include/os_type.h"
+#include "os_type.h"
+#include "config.h"
 
 int main() {
     detectOSType();
+    initializeDataDirectory();
 
     return 0;
 }
